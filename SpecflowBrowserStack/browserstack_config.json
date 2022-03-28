@@ -1,0 +1,24 @@
+{
+	"host": "hub.browserstack.com",
+	"username": "BROWSERSTACK_USERNAME",
+	"access_key": "BROWERSTACK_ACCESS_KEY",
+	"commonCapabilities": {
+		"name": "parallel_test",
+		"build": "specflow-browserstack",
+		"project": "Demo BrowserStack"
+	},
+	"capabilities": [
+		{
+			"browser": "chrome"
+		},
+		{
+			"browser": "firefox"
+		},
+		{
+			"browser": "chrome"
+		},
+		{
+			"browser": "safari"
+		}
+	]
+}
